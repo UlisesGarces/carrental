@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16.4px;
+}
+body {
+  font-family: Poppins, sans-serif;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sedanContainer {
+  background-color: hsl(31, 77%, 52%);
+  font-size: 0.8rem;
+  width: 20%;
+  height: 22rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-top: 2rem;
+  padding: 2rem;
+  position: relative;
+}
+.suvContainer {
+  background-color: hsl(184, 100%, 22%);
+  font-size: 0.8rem;
+  width: 20%;
+  height: 22rem;
+
+  margin-top: 2rem;
+  padding: 2rem;
+  position: relative;
+}
+.luxuryContainer {
+  background-color: hsl(179, 100%, 13%);
+  font-size: 0.8rem;
+  width: 20%;
+  height: 22rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-top: 2rem;
+  padding: 2rem;
+  position: relative;
+}
+.Sedans,
+.suvs,
+.Luxury {
+  color: white;
+}
+
+.item-1 {
+  align-self: start;
+}
+.button {
+  color: hsl(31, 77%, 52%);
+  background-color: white;
+  border-radius: 50px;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 10px;
+  position: absolute;
+  bottom: 20px;
+  transition: all 1s ease;
+}
+.button:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  transform: scale(1.2);
+  border-radius: 1px;
+}
+.button-2 {
+  color: hsl(184, 100%, 22%);
+  background-color: white;
+  border-radius: 50px;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 10px;
+  position: absolute;
+  bottom: 20px;
+  transition: all 1s ease;
+}
+.button-2:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  transform: scale(1.2);
+  border-radius: 1px;
+}
+.button-3 {
+  color: hsl(179, 100%, 13%);
+  background-color: white;
+  border-radius: 50px;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 10px;
+  position: absolute;
+  bottom: 20px;
+  transition: all 1s ease;
+}
+.button-3:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  transform: scale(1.2);
+  border-radius: 1px;
+}
+#madeBy {
+  font-size: 10px;
+  position: absolute;
+  right: 10px;
+  bottom: -40px;
+}
+#gmail {
+  font-size: 10px;
+  position: absolute;
+  right: 10px;
+  bottom: -50px;
+}
