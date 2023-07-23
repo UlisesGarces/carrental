@@ -15,6 +15,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 .sedanContainer {
   background-color: hsl(31, 77%, 52%);
@@ -110,10 +111,12 @@ body {
   position: absolute;
   right: 10px;
   bottom: -40px;
+  bottom: -20px;
 }
 #gmail {
   font-size: 10px;
   position: absolute;
   right: 10px;
   bottom: -50px;
+  bottom: -30px;
 }
